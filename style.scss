@@ -27,6 +27,9 @@ header {
   font-size: 14px;
   padding: 16px 27px;
   background-color: #f5f5f7;
+  svg {
+    transform: translate(0, 1.5px);
+  }
   a {
     color: #0071e3;
     text-decoration: none;
