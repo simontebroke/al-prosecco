@@ -128,7 +128,7 @@ header a {
   color: #222222;
 }
 #home .buttons-container .lieferbtn {
-  margin: 0px 10px;
+  margin: 0px 5px 0px 12.5px;
   display: flex;
   cursor: pointer;
   background-color: #ff8000;
@@ -214,6 +214,12 @@ header a {
     letter-spacing: 0.04em;
     text-align: center;
     color: #222222;
+  }
+  #footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+  #home .buttons-container {
+    grid-template-columns: 1fr 1fr;
   }
   #home .content .buttons-container .reserve p {
     display: none;
