@@ -110,6 +110,9 @@ header {
       text-align: left;
       color: #d9d9d9;
     }
+    .pp-container {
+      max-width: 40vh;
+    }
   }
   .buttons-container {
     margin-top: 9px;
@@ -359,12 +362,12 @@ header {
     margin: 12px 0 25px;
   }
   #home .content .content-grid .pp-container .pp {
-    font-size: 16px;
+    font-size: 14.3px;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 1.25;
     letter-spacing: 0.04em;
     color: #fff;
-    text-align: center;
+    text-align: left;
   }
   #footer .footer-container h5 {
     font-size: 22px;
