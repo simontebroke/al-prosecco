@@ -134,6 +134,65 @@ header {
   }
 }
 
+#footer {
+  margin: 56px 0;
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.65fr;
+    margin: 0 12%;
+    gap: 50px;
+    a {
+      color: #0071e3;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+      text-decoration: none;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    h5 {
+      color: #252525;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 21.48px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .ih {
+      margin-bottom: 29px;
+    }
+    .ihtext {
+      margin-bottom: 11.5px;
+    }
+    .black {
+      color: #252525;
+      font-weight: 500;
+      line-height: 16px;
+      text-align: left;
+      margin-bottom: 2px;
+    }
+    .blacktwo {
+      margin-bottom: 5px;
+    }
+    .text {
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+      color: #7b7b7c;
+    }
+    .linkblue {
+      color: #0071e3;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+    }
+    .tb {
+      margin-bottom: 20px;
+    }
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #home {
     width: 390px;

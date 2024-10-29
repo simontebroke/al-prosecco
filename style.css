@@ -132,6 +132,65 @@ header a {
   background-color: #f07800;
 }
 
+#footer {
+  margin: 56px 0;
+}
+#footer .footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.65fr;
+  margin: 0 12%;
+  gap: 50px;
+}
+#footer .footer-container a {
+  color: #0071e3;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: none;
+}
+#footer .footer-container p {
+  font-size: 0.8rem;
+}
+#footer .footer-container h5 {
+  color: #252525;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 21.48px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+#footer .footer-container .ih {
+  margin-bottom: 29px;
+}
+#footer .footer-container .ihtext {
+  margin-bottom: 11.5px;
+}
+#footer .footer-container .black {
+  color: #252525;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+#footer .footer-container .blacktwo {
+  margin-bottom: 5px;
+}
+#footer .footer-container .text {
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #7b7b7c;
+}
+#footer .footer-container .linkblue {
+  color: #0071e3;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+#footer .footer-container .tb {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 800px) {
   #home {
     width: 390px;
