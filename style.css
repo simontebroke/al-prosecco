@@ -26,43 +26,73 @@ header a {
 }
 
 #home {
-  width: 390px;
-  height: 639px;
-  top: 72px;
-  gap: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0px;
-  background-image: linear-gradient(transparent, transparent, transparent, transparent, #000, #000, #000), url(bg.png);
+  display: grid;
+  position: relative;
+  background-image: url("bgdt.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5%;
+  height: 75vh;
 }
-#home h2 {
-  color: #fff;
-  text-align: center;
-  font-family: SF Pro Display;
-  font-size: 25.92px;
-  font-weight: 700;
-  line-height: 30.5px;
+#home .heading {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
 }
-#home h4 {
-  font-family: SF Pro Display;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 15.51px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.5098039216);
-  margin-top: 12px;
+#home .content {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
 }
-#home img {
-  width: 149px;
-  height: 42px;
-  top: 344px;
-  left: 121px;
-  gap: 0px;
-  opacity: 0px;
-  margin-bottom: 9px;
-}/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 800px) {
+  #home {
+    width: 390px;
+    height: 639px;
+    top: 72px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0px;
+    background-image: linear-gradient(transparent, transparent, transparent, transparent, #000, #000, #000), url(bg.png);
+    background-size: cover;
+  }
+  #home h2 {
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 25.92px;
+    font-weight: 700;
+    line-height: 30.5px;
+    text-align: center;
+  }
+  #home h4 {
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5098039216);
+    margin-top: 12px;
+  }
+  #home img {
+    width: 149px;
+    height: 42px;
+    top: 344px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 9px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

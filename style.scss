@@ -27,27 +27,56 @@ header {
 }
 
 #home {
-  width: 390px;
-  height: 639px;
-  top: 72px;
-  gap: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0px;
-  background-image: linear-gradient(
-      transparent,
-      transparent,
-      transparent,
-      transparent,
-      #000,
-      #000,
-      #000
-    ),
-    url(bg.png);
+  display: grid;
+  position: relative;
+  background-image: url("bgdt.png");
   background-size: cover;
-  h2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5%;
+  height: 75vh;
+  .heading {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #home {
+    width: 390px;
+    height: 639px;
+    top: 72px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0px;
+    background-image: linear-gradient(
+        transparent,
+        transparent,
+        transparent,
+        transparent,
+        #000,
+        #000,
+        #000
+      ),
+      url(bg.png);
+    background-size: cover;
+  }
+  #home h2 {
     color: #fff;
     text-align: center;
     font-family: SF Pro Display;
@@ -56,7 +85,7 @@ header {
     line-height: 30.5px;
     text-align: center;
   }
-  h4 {
+  #home h4 {
     font-family: SF Pro Display;
     font-size: 13px;
     font-weight: 600;
@@ -67,7 +96,7 @@ header {
     margin-top: 12px;
   }
 
-  img {
+  #home img {
     width: 149px;
     height: 42px;
     top: 344px;
