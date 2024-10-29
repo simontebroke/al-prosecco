@@ -337,13 +337,13 @@ header a {
     padding-right: 0;
   }
   #home .content .content-grid .pp-container .pp {
-    font-size: 13.3px;
+    font-size: 13px;
     font-weight: 300;
     line-height: 1.25;
     letter-spacing: 0.04em;
     color: #fff;
     text-align: left;
-    width: 45vh !important;
+    width: 46vh !important;
   }
   #footer .footer-container h5 {
     font-size: 22px;
