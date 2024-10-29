@@ -321,7 +321,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 40px;
   }
 
   #home .content {
@@ -341,7 +340,7 @@ header {
     right: 0;
   }
   #home .buttons-container button {
-    padding: 14px 36px;
+    padding: 14px 5px;
     border-radius: 10px;
   }
   h2,
@@ -359,6 +358,7 @@ header {
     grid-template-areas:
       "buttons"
       "text";
+    width: 100%;
   }
 
   #home .content .content-grid .pp-container {
@@ -368,7 +368,7 @@ header {
     padding-right: 0;
   }
   #home .content .content-grid .pp-container .pp {
-    font-size: 14.3px;
+    font-size: 13.3px;
     font-weight: 300;
     line-height: 1.25;
     letter-spacing: 0.04em;
