@@ -322,6 +322,10 @@ header a {
   img {
     text-align: center !important;
   }
+  #home .content img {
+    width: 152px;
+    height: 43px;
+  }
   #home .content h2 {
     font-size: 28px;
     line-height: 1.3;
