@@ -352,6 +352,9 @@ header a {
   #footer .footer-container .informationen h5 {
     margin-bottom: 23px !important;
   }
+  #footer .footer-container {
+    margin: 0 6%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
