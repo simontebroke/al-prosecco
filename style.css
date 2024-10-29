@@ -257,6 +257,9 @@ header a {
     line-height: 20.29px;
     letter-spacing: 0.01em;
   }
+  #home .content h4 {
+    margin-bottom: 6px;
+  }
   #home .content .buttons-container .menu p {
     text-align: center;
     color: #000000;
