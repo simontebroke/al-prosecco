@@ -39,26 +39,13 @@ header {
 #home {
   display: grid;
   position: relative;
+  background-image: url("altbg.jpg");
   background-repeat: no-repeat;
   padding: 5%;
   background-size: cover;
   background-position: center;
   padding: 5vw;
   height: 75vh;
-  overflow: hidden;
-
-  video {
-    position: absolute; /* Positioning for video */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    min-width: 100%; /* Minimum width */
-    min-height: 100%; /* Minimum height */
-    width: auto; /* Automatic width */
-    height: auto; /* Automatic height */
-    transform: translate(-50%, -50%); /* Center the video */
-    z-index: -11 !important; /* Ensure video is behind the content */
-  }
-
   .heading {
     position: absolute;
     top: 24%;
@@ -150,9 +137,6 @@ header {
       transition: all 0.2s ease;
       backdrop-filter: blur(72.4px);
       z-index: 3131;
-      a {
-        text-decoration: none;
-      }
       &:hover {
         background-color: #f0f0f0f1;
       }
@@ -167,7 +151,6 @@ header {
     .lieferbtn {
       margin: 0px 5px 0px 12.5px;
       display: flex;
-      padding: 11.3px 55px 13px;
       cursor: pointer;
       background-color: #ff8000;
       border: none;
