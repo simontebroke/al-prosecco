@@ -38,7 +38,7 @@ header a {
 #home {
   display: grid;
   position: relative;
-  background-image: linear-gradient(to top right, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%), url(altbg.jpg);
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.85) 15%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%), url(altbg.jpg);
   background-repeat: no-repeat;
   padding: 5%;
   background-size: cover;
