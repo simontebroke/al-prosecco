@@ -204,11 +204,12 @@ header a {
 }
 #photoSection .photoSectionContainer .image {
   width: 387px;
-  height: 245px;
+  max-height: 245px;
 }
 #photoSection .photoSectionContainer .image img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  max-height: 217px;
+  height: auto;
 }
 #photoSection .photoSectionContainer .image p {
   font-size: 15px;
