@@ -199,7 +199,6 @@ header {
 #photoSection {
   background-color: #fff;
   padding: 32px 0 32px 12%;
-
   h5 {
     color: #252525;
     font-size: 1rem;
@@ -210,6 +209,9 @@ header {
   }
   .photoSectionContainer {
     white-space: nowrap;
+    overflow-x: hidden; /* Adds horizontal scrollbar */
+    scrollbar-width: thin; /* Optional: adjusts scrollbar thickness for Firefox */
+    -webkit-overflow-scrolling: touch; /* Optional: smooth scrolling on touch devices */
 
     .image {
       display: inline-block;
@@ -225,6 +227,7 @@ header {
         letter-spacing: 0.01em;
         text-align: left;
         margin-top: 10px;
+        margin-bottom: 10px;
       }
     }
   }
@@ -440,5 +443,11 @@ header {
   }
   #footer .footer-container {
     margin: 0 6%;
+  }
+}
+
+@media (max-width: 1859px) {
+  #photoSection .photoSectionContainer {
+    overflow-x: scroll;
   }
 }

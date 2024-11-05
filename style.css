@@ -199,6 +199,9 @@ header a {
 }
 #photoSection .photoSectionContainer {
   white-space: nowrap;
+  overflow-x: hidden; /* Adds horizontal scrollbar */
+  scrollbar-width: thin; /* Optional: adjusts scrollbar thickness for Firefox */
+  -webkit-overflow-scrolling: touch; /* Optional: smooth scrolling on touch devices */
 }
 #photoSection .photoSectionContainer .image {
   display: inline-block;
@@ -215,6 +218,7 @@ header a {
   letter-spacing: 0.01em;
   text-align: left;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #footer {
@@ -397,6 +401,11 @@ header a {
   }
   #footer .footer-container {
     margin: 0 6%;
+  }
+}
+@media (max-width: 1859px) {
+  #photoSection .photoSectionContainer {
+    overflow-x: scroll;
   }
 }
 
