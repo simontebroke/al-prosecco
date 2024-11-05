@@ -198,18 +198,15 @@ header a {
   margin-bottom: 10px;
 }
 #photoSection .photoSectionContainer {
-  display: flex;
-  gap: 19px;
-  flex-direction: row;
+  white-space: nowrap;
 }
 #photoSection .photoSectionContainer .image {
-  width: 387px;
-  max-height: 245px;
+  display: inline-block;
+  margin-right: 19px;
 }
 #photoSection .photoSectionContainer .image img {
-  width: auto;
-  max-height: 217px;
-  height: auto;
+  width: 387px;
+  height: 217px;
 }
 #photoSection .photoSectionContainer .image p {
   font-size: 15px;

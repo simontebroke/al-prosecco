@@ -209,16 +209,14 @@ header {
     margin-bottom: 10px;
   }
   .photoSectionContainer {
-    display: flex;
-    gap: 19px;
-    flex-direction: row;
+    white-space: nowrap;
+
     .image {
-      width: 387px;
-      max-height: 245px;
+      display: inline-block;
+      margin-right: 19px;
       img {
-        width: auto;
-        max-height: 217px;
-        height: auto;
+        width: 387px;
+        height: 217px;
       }
       p {
         font-size: 15px;
