@@ -38,7 +38,7 @@ header a {
 #home {
   display: grid;
   position: relative;
-  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.85) 15%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%), url(altbg.jpg);
+  background-image: linear-gradient(50deg, rgba(0, 0, 0, 0.85) 20%, rgba(0, 0, 0, 0.35) 37%, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0) 0%), url(altbg.jpg);
   background-repeat: no-repeat;
   padding: 5%;
   background-size: cover;
@@ -185,17 +185,11 @@ header a {
   grid-area: info;
 }
 
-#aboutSection {
-  margin: 32px 0 0 12%;
+#photoSection {
+  background-color: #fff;
+  padding: 32px 0 32px 12%;
 }
-#aboutSection hr {
-  border: none; /* Remove default border */
-  height: 1px; /* Set the height of the line */
-  background-color: #d2d2d7; /* Set the background color */
-  margin: 18px 0; /* Optional: Adjust margins as needed */
-  margin: 18px 12% 0 0;
-}
-#aboutSection h5 {
+#photoSection h5 {
   color: #252525;
   font-size: 1rem;
   font-weight: 700;
@@ -203,36 +197,26 @@ header a {
   text-align: left;
   margin-bottom: 10px;
 }
-#aboutSection .buttonContainer {
+#photoSection .photoSectionContainer {
   display: flex;
+  gap: 19px;
   flex-direction: row;
-  gap: 20px;
 }
-#aboutSection .buttonContainer .aboutButton {
-  width: 304px;
-  height: 145px;
-  background-color: #fff;
-  padding: 16px 18px;
-  border-radius: 15px;
+#photoSection .photoSectionContainer .image {
+  width: 100%;
+  height: 100%;
 }
-#aboutSection .buttonContainer .aboutButton h5 {
-  margin-bottom: 5px;
+#photoSection .photoSectionContainer .image img {
+  width: 100%;
+  height: 100%;
 }
-#aboutSection .buttonContainer .aboutButton h6 {
-  color: #7f7f7f;
-  font-size: 12px;
-  font-weight: 600;
+#photoSection .photoSectionContainer .image p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.9px;
   letter-spacing: 0.01em;
   text-align: left;
-}
-#aboutSection .buttonContainer .aboutButton p {
-  padding: 0 0 0 3px;
-  color: #7f7f7f;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  text-align: left;
-  margin-top: 9px;
+  margin-top: 10px;
 }
 
 #footer {

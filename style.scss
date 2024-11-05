@@ -40,10 +40,11 @@ header {
   display: grid;
   position: relative;
   background-image: linear-gradient(
-      to top right,
-      rgba(0, 0, 0, 0.85) 15%,
-      rgba(0, 0, 0, 0.5) 50%,
-      rgba(0, 0, 0, 0) 100%
+      50deg,
+      rgba(0, 0, 0, 0.85) 20%,
+      rgba(0, 0, 0, 0.35) 37%,
+      rgba(0, 0, 0, 0.05) 40%,
+      rgba(0, 0, 0, 0) 0%
     ),
     url(altbg.jpg);
   background-repeat: no-repeat;
@@ -195,16 +196,9 @@ header {
   grid-area: info;
 }
 
-#aboutSection {
-  margin: 32px 0 0 12%;
-
-  hr {
-    border: none; /* Remove default border */
-    height: 1px; /* Set the height of the line */
-    background-color: #d2d2d7; /* Set the background color */
-    margin: 18px 0; /* Optional: Adjust margins as needed */
-    margin: 18px 12% 0 0;
-  }
+#photoSection {
+  background-color: #fff;
+  padding: 32px 0 32px 12%;
 
   h5 {
     color: #252525;
@@ -214,34 +208,24 @@ header {
     text-align: left;
     margin-bottom: 10px;
   }
-  .buttonContainer {
+  .photoSectionContainer {
     display: flex;
+    gap: 19px;
     flex-direction: row;
-    gap: 20px;
-    .aboutButton {
-      width: 304px;
-      height: 145px;
-      background-color: #fff;
-      padding: 16px 18px;
-      border-radius: 15px;
-      h5 {
-        margin-bottom: 5px;
-      }
-      h6 {
-        color: #7f7f7f;
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: 0.01em;
-        text-align: left;
+    .image {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
       }
       p {
-        padding: 0 0 0 3px;
-        color: #7f7f7f;
-        font-size: 13px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17.9px;
         letter-spacing: 0.01em;
         text-align: left;
-        margin-top: 9px;
+        margin-top: 10px;
       }
     }
   }
