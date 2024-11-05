@@ -38,7 +38,7 @@ header a {
 #home {
   display: grid;
   position: relative;
-  background-image: url("bgdt.png");
+  background-image: url("altbg.jpg");
   background-repeat: no-repeat;
   padding: 5%;
   background-size: cover;
@@ -252,7 +252,7 @@ header a {
     margin-left: 42px;
   }
   #home {
-    background-image: linear-gradient(to bottom, transparent 0%, transparent 40%, transparent 0%, #000, #000), url(bg.png);
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 40%, transparent 0%, #000, #000), url(altbg.jpg);
     padding: 0;
     justify-items: center;
     align-items: end;
