@@ -39,7 +39,13 @@ header {
 #home {
   display: grid;
   position: relative;
-  background-image: url("altbg.jpg");
+  background-image: linear-gradient(
+      to top right,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(altbg.jpg);
   background-repeat: no-repeat;
   padding: 5%;
   background-size: cover;
@@ -137,6 +143,9 @@ header {
       transition: all 0.2s ease;
       backdrop-filter: blur(72.4px);
       z-index: 3131;
+      a {
+        text-decoration: none;
+      }
       &:hover {
         background-color: #f0f0f0f1;
       }
