@@ -187,7 +187,7 @@ header a {
 
 #photoSection {
   background-color: #fff;
-  padding: 32px 0 32px 12%;
+  padding: 32px 30px 32px 12%;
 }
 #photoSection h5 {
   color: #252525;
@@ -202,6 +202,7 @@ header a {
   overflow-x: hidden; /* Adds horizontal scrollbar */
   scrollbar-width: thin; /* Optional: adjusts scrollbar thickness for Firefox */
   -webkit-overflow-scrolling: touch; /* Optional: smooth scrolling on touch devices */
+  border-radius: 15px;
 }
 #photoSection .photoSectionContainer .image {
   display: inline-block;
@@ -213,7 +214,7 @@ header a {
 }
 #photoSection .photoSectionContainer .image p {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 17.9px;
   letter-spacing: 0.01em;
   text-align: left;
